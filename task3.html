@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>task3</title>
+        <style>
+            body{
+                background-color: whitesmoke;
+            }
+            #class{
+                background-color: blue;
+                padding: 2px ;
+                text-align: center;
+                color: white;
+
+            }
+           h2{
+                color:blue;
+            }   
+    
+            textarea,text{
+        
+                border: 1px solid gray;
+                margin-bottom: 10px;
+                padding: 6px;
+                box-sizing: border-box;
+            }
+            input[type=submit]{
+                background-color:#0000FF;
+                border:none;
+                color: white;
+                padding: 6px 46px;
+                cursor: pointer;
+            }
+            .project-container {
+                border: 1px solid gray;
+                padding: 10px;
+                margin-bottom: 10px;
+            }
+         
+        </style>
+    </head>
+    <body>
+        <form>
+            <div id="class">
+                <h1>Your Name</h1>
+                <p>Brief information about yourself.</p>
+            </div>
+            <h2>Skills</h2>
+            <input type="text" style="background-color: lightgray;" size="50"  placeholder="Add your skills" >
+            <h2>Projects</h2>
+          
+            <div class="project-container">
+                <input type="text" style="border: none;background-color: whitesmoke;font-weight: bold;" size="100"  placeholder="project name" ><br><br>
+                <input type="text" style="border: none;background-color: whitesmoke;" size="100"  placeholder="Project description goes here" >
+            </div>
+            
+            <div style="text-align: center;">
+                <h2 >Contact</h2>
+                
+                <input type="text" placeholder="Your Name"><br><br>
+                <input type="text" placeholder="Your Email"><br><br>
+                <textarea  rows="2" cols="20"  placeholder="Your Massage"></textarea><br><br>
+                <input type="submit" value="send massage">
+            </div>
+        </form>
+    </body>
+</html>
